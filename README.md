@@ -26,8 +26,8 @@ deepchem-model-optimization/
 ```
 
 
-## Getting Started
-The notebooks are all self contained.
+## Executing the Code
+The notebooks are all self contained and can be run on Google Colab using a GPU runtime.
 
 **Note:** You might not be able to view some of the Jupyter notebooks directly on the GitHub page due to GitHub’s rendering limitations. For the best experience, please download the notebooks and open them locally.
 
@@ -49,7 +49,7 @@ wandb login [your-api-key] # Get key from https://wandb.ai/authorize
 
 1. **Parameter Efficiency**  
    Achieves _% parameter reduction with <_% accuracy drop using LoRA
-2. **Quantization Aware Training**  
+2. **Post-Training Quantization**  
    Reduces model size by _x while maintaining _%+ accuracy
 3. **Knowledge Distillation with LoRA:** 
     Distills knowledge from a large ChemBERTa teacher into a smaller, LoRA-adapted student
@@ -57,9 +57,9 @@ wandb login [your-api-key] # Get key from https://wandb.ai/authorize
    Full W&B integration for experiment tracking
 
 
-## References
-1. [ChemBERTa: Pre-trained Molecular Representation Model](https://arxiv.org/abs/2010.09885)  
-2. [DeepChem](https://deepchem.io/)  
+## Results
+
+
 
 ---
 
