@@ -18,10 +18,9 @@
 ```
 deepchem-model-optimization/
 ├── chemberta_lora_adalora.ipynb # LoRA and AdaLoRA adapted ChemBERTa with hyperparameter tuning
-├── Compiled_LoRA.ipynb # Optimized vs base model speeds
 ├── KDLoRA.ipynb # Knowledge Distillation + LoRA implementation
-├── Quantized_LoRA.ipynb # PTQ experiments
-├── Compiled_LoRA.ipynb # Optimized vs base model speeds
+├── Quantized_LoRA.ipynb # PTQ experiments + LoRA
+├── Compiled_LoRA.ipynb # Optimized vs base LoRA model speeds
 ├── prototype/ # initial mini experiments
 └── README.md
 ```
