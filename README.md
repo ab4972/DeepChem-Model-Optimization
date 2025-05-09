@@ -26,7 +26,7 @@ deepchem-model-optimization/
 ```
 
 
-## Executing the Code
+### Executing the Code
 The notebooks are all self contained and can be run on Google Colab using a GPU runtime.
 
 **Note:** You might not be able to view some of the Jupyter notebooks directly on the GitHub page due to GitHub’s rendering limitations. For the best experience, please download the notebooks and open them locally.
