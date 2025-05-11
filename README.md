@@ -51,7 +51,7 @@ wandb login [your-api-key] # Get key from https://wandb.ai/authorize
 
 ## Results
 
-### **ChemBeRTa fine tuning with LoRA variants:**
+### **ChemBERTa fine tuning with LoRA variants:**
 
 Best learning rate: 3e-4
 
@@ -65,7 +65,7 @@ Base model accuracy with no fine-tuning: 50.68%
 
 <img src="images/image.png" alt="lora_variant_metrics" width="700" height="200"/>
 
-### **ChemBeRTa with Torch.Compile:**
+### **ChemBERTa with Torch.Compile:**
 
 | Model                   | Test Accuracy (%)   | Training Time (s) |
 |-------------------------|-----------------|-----------------|
@@ -77,7 +77,7 @@ Base model accuracy with no fine-tuning: 50.68%
 
 <img src="images/image-2.png" alt="epoch_training_times" width="400" height="250"/>
 
-### **ChemBeRTa with Quantization:**
+### **ChemBERTa with Quantization:**
 
 | Model                   | Test Accuracy (%)   | Model Size (MB) | Inference Time (s) |
 |-------------------------|-----------------|-----------------|------------|
@@ -87,7 +87,7 @@ Base model accuracy with no fine-tuning: 50.68%
 
 <img src="images/image-3.png" alt="onnx_quantization" width="600" height="200"/>
 
-### **ChemBeRTa with KD-LoRA:**
+### **ChemBERTa with KD-LoRA:**
 
 | Model                   | Test Accuracy (%)   | Total Params | Model Size (MB) |
 |-------------------------|-----------------|-----------------|------------|
